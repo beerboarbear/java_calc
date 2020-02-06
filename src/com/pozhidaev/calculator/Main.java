@@ -15,6 +15,7 @@ public class Main {
         System.out.println("Введите операцию");
         CalculatableModel model = null;
         Scanner scn = new Scanner(System.in);
+
         try {
             while (true) {
                 model = Parser.TryParseUserInput(scn);
